@@ -111,6 +111,7 @@ public class TestBowling {
 		assertEquals(94,number);
 	}
 	
+	
 	// example2 : [10,0] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [10,0]
 	@Test
 	public void testScoreWithStrike_example2case_equals_96() throws BowlingException{
@@ -127,6 +128,24 @@ public class TestBowling {
 		bg.addFrame(new Frame(10,0));
 		int number = bg.score();
 		assertEquals(96,number);
+	}
+	
+	// example : [1,9] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	@Test
+	public void testScoreWithSpare_example3case_equals_88() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(1,9));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(4,4));
+		bg.addFrame(new Frame(5,3));
+		bg.addFrame(new Frame(3,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(8,1));
+		bg.addFrame(new Frame(2,6));
+		int number = bg.score();
+		assertEquals(88,number);
 	}
 }
 

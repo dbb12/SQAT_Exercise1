@@ -118,3 +118,9 @@ EditAction 1474460518228 TestBowling.java 3942 13 71 8
 UnitTestCaseAction 1474460518512 TestBowling.java OK
 UnitTestSessionAction 1474460518512 TestBowling.java OK
 EditAction 1474460767972 Frame.java 890 6 10 0
+RefactoringAction 1474460784446 TestBowling.java ADD void testScoreWithSpare FIELD
+RefactoringAction 1474460791154 TestBowling.java RENAME testScoreWithSpare=>void testScoreWithSpare_example3case_equals FIELD
+RefactoringAction 1474460792199 TestBowling.java RENAME testScoreWithSpare_example3case_equals=>void testScoreWithSpare_example3case_equals_ FIELD
+RefactoringAction 1474460793244 TestBowling.java RENAME testScoreWithSpare_example3case_equals_=>void testScoreWithSpare_example3case_equals_88 FIELD
+RefactoringAction 1474460799438 TestBowling.java RENAME testScoreWithSpare_example3case_equals_88=>void testScoreWithSpare_example3case_equals_88() METHOD
+EditAction 1474460979633 TestBowling.java 4533 14 84 9
