@@ -197,3 +197,11 @@ RefactoringAction 1474462370106 TestBowling.java RENAME testScoreWithBonusAStrik
 RefactoringAction 1474462371666 TestBowling.java RENAME testScoreWithBonusAStrike_example9case_equals=>void testScoreWithBonusAStrike_example9case_equals_93 FIELD
 RefactoringAction 1474462376830 TestBowling.java RENAME testScoreWithBonusAStrike_example9case_equals_93=>void testScoreWithBonusAStrike_example9case_equals_93() METHOD
 EditAction 1474462417999 TestBowling.java 8233 20 165 15
+UnitTestCaseAction 1474462418331 TestBowling.java OK
+UnitTestSessionAction 1474462418331 TestBowling.java OK
+RefactoringAction 1474462456801 TestBowling.java ADD void testBestSo FIELD
+RefactoringAction 1474462458876 TestBowling.java RENAME testBestSo=>void testBestScore FIELD
+RefactoringAction 1474462461481 TestBowling.java RENAME testBestScore=>void testBestScore_e FIELD
+RefactoringAction 1474462464070 TestBowling.java RENAME testBestScore_e=>void testBestScore_equals_300 FIELD
+RefactoringAction 1474462470778 TestBowling.java RENAME testBestScore_equals_300=>void testBestScore_equals_300() METHOD
+EditAction 1474462505629 TestBowling.java 8762 21 179 16
