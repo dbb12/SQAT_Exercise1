@@ -38,3 +38,4 @@ RefactoringAction 1474458319363 TestBowling.java ADD void testFrame_5_7_throwBow
 RefactoringAction 1474458321422 TestBowling.java RENAME testFrame_5_7_throwBowlingException()/2=>void testFrame__7_throwBowlingException() METHOD
 RefactoringAction 1474458323497 TestBowling.java RENAME testFrame__7_throwBowlingException()=>void testFrame_ FIELD
 EditAction 1474458344214 Frame.java 833 6 8 0
+EditAction 1474458344370 TestBowling.java 1038 6 10 2
