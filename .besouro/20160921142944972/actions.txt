@@ -80,3 +80,16 @@ RefactoringAction 1474459339045 TestBowling.java RENAME testBowlingGame_minus=>v
 RefactoringAction 1474459341120 TestBowling.java RENAME testBowlingGame_minus1_2=>void testBowlingGame_minus1_2_throw FIELD
 RefactoringAction 1474459344739 TestBowling.java RENAME testBowlingGame_minus1_2_throw=>void testBowlingGame_minus1_2_throwBowlingException() METHOD
 EditAction 1474459372414 TestBowling.java 1882 10 21 5
+RefactoringAction 1474459639039 BowlingGame.java REMOVE import java.util.Scanner IMPORT
+RefactoringAction 1474459871885 TestBowling.java ADD void testBowling FIELD
+RefactoringAction 1474459877049 TestBowling.java RENAME testBowlingGame_return_10()=>void testaddFrame_return_10() METHOD
+RefactoringAction 1474459880668 TestBowling.java RENAME testBowlingGame_minus1_2_throwBowlingException()=>void testaddFrame_minus1_2_throwBowlingException() METHOD
+RefactoringAction 1474459890465 TestBowling.java RENAME testBowling=>void testscore FIELD
+RefactoringAction 1474459891510 TestBowling.java RENAME testscore=>void testscore_ FIELD
+RefactoringAction 1474459897703 TestBowling.java RENAME testscore_=>void testscore_example_81 FIELD
+RefactoringAction 1474459905940 TestBowling.java RENAME testscore_example_81=>void testscore_example_81() METHOD
+RefactoringAction 1474459930151 TestBowling.java ADD void testaddFrame_minus1_2_throwBowlingException()/2 METHOD
+RefactoringAction 1474459931711 TestBowling.java REMOVE testaddFrame_minus1_2_throwBowlingException()/2 METHOD
+UnitTestCaseAction 1474459944063 TestBowling.java FAIL
+UnitTestSessionAction 1474459944063 TestBowling.java FAIL
+EditAction 1474459982393 TestBowling.java 2758 11 45 6

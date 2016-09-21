@@ -11,9 +11,14 @@ public class BowlingGame {
 	
 	public BowlingGame(){}
 	
+	// to get the number of frames a game consists of
+	public int getThrowsNumber(){
+		return frames.size();
+	}
+	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
-		//to be implemented
+	public void addFrame(Frame frame) throws BowlingException{
+		frames.add(frame);
 	}
 	
 	// Sets the bonus throws at the end of the game
@@ -23,7 +28,9 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
-		return 0;
+		int score=0;
+		for( int i=0 ; i<frames.size() ; i++ )
+			score += (frames.get(i)).score();
+		return score;
 	}
 }

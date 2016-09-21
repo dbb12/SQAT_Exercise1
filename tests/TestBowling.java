@@ -54,15 +54,43 @@ public class TestBowling {
 	}
 
 	@Test
-	public void testBowlingGame_return_10() throws BowlingException{
+	public void testaddFrame_return_10() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(1,5));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(4,4));
+		bg.addFrame(new Frame(5,3));
+		bg.addFrame(new Frame(3,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(8,1));
+		bg.addFrame(new Frame(2,6));
 		int number = bg.getThrowsNumber();
 		assertEquals(10,number);
 	}
 	
-	@Test
-	public void testBowlingGame_minus1_2_throwBowlingException() throws BowlingException{
+	@Test (expected = BowlingException.class )
+	public void testaddFrame_minus1_2_throwBowlingException() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(-1,2));
+	}
+	
+	@Test
+	public void testscore_example_81() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(1,5));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(4,4));
+		bg.addFrame(new Frame(5,3));
+		bg.addFrame(new Frame(3,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(8,1));
+		bg.addFrame(new Frame(2,6));
+		int number = bg.score();
+		assertEquals(81,number);
 	}
 }
 
