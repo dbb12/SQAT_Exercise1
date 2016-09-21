@@ -188,3 +188,12 @@ EditAction 1474462266485 TestBowling.java 7602 19 151 14
 UnitTestCaseAction 1474462266769 TestBowling.java FAIL
 UnitTestSessionAction 1474462266769 TestBowling.java FAIL
 EditAction 1474462277751 TestBowling.java 7601 19 151 14
+UnitTestCaseAction 1474462278051 TestBowling.java OK
+UnitTestSessionAction 1474462278051 TestBowling.java OK
+RefactoringAction 1474462360247 TestBowling.java ADD void testScoreWithBonusA FIELD
+RefactoringAction 1474462363851 TestBowling.java RENAME testScoreWithBonusA=>void testScoreWithBonusAStrike FIELD
+RefactoringAction 1474462367985 TestBowling.java RENAME testScoreWithBonusAStrike=>void testScoreWithBonusAStrike_example9case FIELD
+RefactoringAction 1474462370106 TestBowling.java RENAME testScoreWithBonusAStrike_example9case=>void testScoreWithBonusAStrike_example9case_equals FIELD
+RefactoringAction 1474462371666 TestBowling.java RENAME testScoreWithBonusAStrike_example9case_equals=>void testScoreWithBonusAStrike_example9case_equals_93 FIELD
+RefactoringAction 1474462376830 TestBowling.java RENAME testScoreWithBonusAStrike_example9case_equals_93=>void testScoreWithBonusAStrike_example9case_equals_93() METHOD
+EditAction 1474462417999 TestBowling.java 8233 20 165 15

@@ -239,6 +239,25 @@ public class TestBowling {
 		int number = bg.score();
 		assertEquals(92,number);
 	}
+	
+	// example8 : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [10,0]
+	@Test
+	public void testScoreWithBonusAStrike_example9case_equals_93() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(1,5));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(4,4));
+		bg.addFrame(new Frame(5,3));
+		bg.addFrame(new Frame(3,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(8,1));
+		bg.addFrame(new Frame(2,8));
+		bg.setBonus(10,0);
+		int number = bg.score();
+		assertEquals(93,number);
+	}
 }
 
 
