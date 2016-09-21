@@ -24,11 +24,6 @@ public class TestBowling {
 	}
 	
 	@Test (expected = BowlingException.class)
-	public void testFrame_5_7_throwBowlingException() throws BowlingException{
-		Frame frm = new Frame(5,7);
-	}
-	
-	@Test (expected = BowlingException.class)
 	public void testFrame_minus1_7_throwBowlingException() throws BowlingException{
 		Frame frm = new Frame(-1,7);
 	}
@@ -130,7 +125,7 @@ public class TestBowling {
 		assertEquals(95,number);
 	}
 	
-	// example3 : [1,9] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	// example3 : [1,9] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [10,0] [2,6]
 	@Test
 	public void testScoreWithSpare_example3case_equals_88() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -145,7 +140,7 @@ public class TestBowling {
 		bg.addFrame(new Frame(8,1));
 		bg.addFrame(new Frame(2,6));
 		int number = bg.score();
-		assertEquals(88,number);
+		assertEquals(97,number);
 	}
 	
 	// example4 : [10,0] [4,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
