@@ -273,6 +273,26 @@ public class TestBowling {
 		int number = bg.score();
 		assertEquals(300,number);
 	}
+	
+	@Test
+	public void testRealGame_givenexample_equals_135() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(6,3));
+		bg.addFrame(new Frame(7,1));
+		bg.addFrame(new Frame(8,2));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(10,0));
+		
+		bg.addFrame(new Frame(6,2));
+		bg.addFrame(new Frame(7,3));
+		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(8,0));
+		bg.addFrame(new Frame(7,3));
+		
+		bg.setBonus(10,0);
+		int number = bg.score();
+		assertEquals(135,number);
+	}
 }
 
 

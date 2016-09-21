@@ -243,3 +243,10 @@ EditAction 1474463401690 BowlingGame.java 1481 5 9 0
 UnitTestCaseAction 1474463401958 TestBowling.java FAIL
 UnitTestSessionAction 1474463401958 TestBowling.java FAIL
 EditAction 1474463418276 TestBowling.java 8610 20 178 16
+UnitTestCaseAction 1474463418559 TestBowling.java OK
+UnitTestSessionAction 1474463418559 TestBowling.java OK
+RefactoringAction 1474463434659 TestBowling.java ADD void testRealGame_ FIELD
+RefactoringAction 1474463441881 TestBowling.java RENAME testRealGame_=>void testRealGame_given FIELD
+RefactoringAction 1474463447560 TestBowling.java RENAME testRealGame_given=>void testRealGame_givenexample_equals_135 FIELD
+RefactoringAction 1474463452723 TestBowling.java RENAME testRealGame_givenexample_equals_135=>void testRealGame_givenexample_equals_135() METHOD
+EditAction 1474463551472 TestBowling.java 9151 21 192 17
