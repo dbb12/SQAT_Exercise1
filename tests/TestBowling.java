@@ -183,6 +183,24 @@ public class TestBowling {
 		int number = bg.score();
 		assertEquals(112,number);
 	}
+	
+	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	@Test
+	public void testScoreWithTwoSpareInARow_example6case_equals_98() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(8,2));
+		bg.addFrame(new Frame(5,5));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(4,4));
+		bg.addFrame(new Frame(5,3));
+		bg.addFrame(new Frame(3,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(8,1));
+		bg.addFrame(new Frame(2,6));
+		int number = bg.score();
+		assertEquals(98,number);		
+	}
 }
 
 
