@@ -175,3 +175,4 @@ RefactoringAction 1474461973901 TestBowling.java RENAME testScoreWithLastSpare_e
 RefactoringAction 1474461975975 TestBowling.java RENAME testScoreWithLastSpare_example7case_equals=>void testScoreWithLastSpare_example7case_equals_90 FIELD
 RefactoringAction 1474461979080 TestBowling.java RENAME testScoreWithLastSpare_example7case_equals_90=>void testScoreWithLastSpare_example7case_equals_90() METHOD
 EditAction 1474462036347 Frame.java 891 6 10 0
+EditAction 1474462036394 TestBowling.java 6969 18 137 13
