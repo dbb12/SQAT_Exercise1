@@ -29,8 +29,12 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		int score=0;
-		for( int i=0 ; i<frames.size() ; i++ )
+		for( int i=0 ; i<frames.size()-1 ; i++ )
+		{
 			score += (frames.get(i)).score();
-		return score;
+			if( frames.get(i).isStrike() )
+				score += frames.get(i+1).score();
+		}
+		return score+frames.get(9).score();
 	}
 }

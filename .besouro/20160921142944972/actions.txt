@@ -93,3 +93,6 @@ RefactoringAction 1474459931711 TestBowling.java REMOVE testaddFrame_minus1_2_th
 UnitTestCaseAction 1474459944063 TestBowling.java FAIL
 UnitTestSessionAction 1474459944063 TestBowling.java FAIL
 EditAction 1474459982393 TestBowling.java 2758 11 45 6
+UnitTestCaseAction 1474459982708 TestBowling.java OK
+UnitTestSessionAction 1474459982708 TestBowling.java OK
+EditAction 1474460366609 BowlingGame.java 920 5 5 0
