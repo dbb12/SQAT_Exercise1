@@ -250,3 +250,5 @@ RefactoringAction 1474463441881 TestBowling.java RENAME testRealGame_=>void test
 RefactoringAction 1474463447560 TestBowling.java RENAME testRealGame_given=>void testRealGame_givenexample_equals_135 FIELD
 RefactoringAction 1474463452723 TestBowling.java RENAME testRealGame_givenexample_equals_135=>void testRealGame_givenexample_equals_135() METHOD
 EditAction 1474463551472 TestBowling.java 9151 21 192 17
+UnitTestCaseAction 1474463551755 TestBowling.java OK
+UnitTestSessionAction 1474463551755 TestBowling.java OK
