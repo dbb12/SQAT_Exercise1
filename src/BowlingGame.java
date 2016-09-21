@@ -41,7 +41,9 @@ public class BowlingGame {
 			else if( frames.get(i).isSpare() )
 				score += frames.get(i+1).getFirstThrow();
 		}
-		if( frames.get(9).isSpare() )
+		if ( frames.get(9).isStrike() )
+			score += bonus.score();
+		else if( frames.get(9).isSpare() )
 			score += bonus.getFirstThrow();
 		return score+frames.get(9).score();
 	}
