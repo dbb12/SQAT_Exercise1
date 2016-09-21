@@ -52,4 +52,50 @@ public class TestBowling {
 		Frame frm = new Frame(-1,9);
 		int score = frm.score();
 	}
+
+	@Test
+	public void testBowlingGame_return_10() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		int number = bg.getThrowsNumber();
+		assertEquals(10,number);
+	}
+	
+	@Test
+	public void testBowlingGame_minus1_2_throwBowlingException() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

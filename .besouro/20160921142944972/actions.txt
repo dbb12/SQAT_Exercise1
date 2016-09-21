@@ -60,3 +60,23 @@ RefactoringAction 1474458545344 TestBowling.java RENAME testFrame_minus1_=>void 
 RefactoringAction 1474458564407 TestBowling.java RENAME testFrame_minus1_8=>void testFrame_minus1_8_throwBowlingException() METHOD
 EditAction 1474458581427 Frame.java 841 6 8 0
 EditAction 1474458581489 TestBowling.java 1486 8 17 4
+UnitTestCaseAction 1474458581789 TestBowling.java OK
+UnitTestSessionAction 1474458581789 TestBowling.java OK
+RefactoringAction 1474459060569 BowlingGame.java ADD import java.util.Scanner IMPORT
+RefactoringAction 1474459129225 TestBowling.java ADD void test FIELD
+RefactoringAction 1474459135933 TestBowling.java RENAME test=>void testBowlingGame FIELD
+RefactoringAction 1474459184090 BowlingGame.java ADD int get FIELD
+RefactoringAction 1474459186165 BowlingGame.java RENAME get=>int getB FIELD
+RefactoringAction 1474459190299 BowlingGame.java RENAME getB=>int getThrows FIELD
+RefactoringAction 1474459192889 BowlingGame.java RENAME getThrows=>int getThrowsNumber() METHOD
+RefactoringAction 1474459264134 TestBowling.java RENAME testBowlingGame=>void testBowlingGame_ FIELD
+RefactoringAction 1474459266724 TestBowling.java RENAME testBowlingGame_=>void testBowlingGame_return FIELD
+RefactoringAction 1474459268284 TestBowling.java RENAME testBowlingGame_return=>void testBowlingGame_return_10 FIELD
+RefactoringAction 1474459275506 TestBowling.java RENAME testBowlingGame_return_10=><initializer /1> null
+RefactoringAction 1474459333882 TestBowling.java ADD void testBowlingGame FIELD
+RefactoringAction 1474459334911 TestBowling.java RENAME testBowlingGame=>void testBowlingGame_ FIELD
+RefactoringAction 1474459336971 TestBowling.java RENAME testBowlingGame_=>void testBowlingGame_minus FIELD
+RefactoringAction 1474459339045 TestBowling.java RENAME testBowlingGame_minus=>void testBowlingGame_minus1_2 FIELD
+RefactoringAction 1474459341120 TestBowling.java RENAME testBowlingGame_minus1_2=>void testBowlingGame_minus1_2_throw FIELD
+RefactoringAction 1474459344739 TestBowling.java RENAME testBowlingGame_minus1_2_throw=>void testBowlingGame_minus1_2_throwBowlingException() METHOD
+EditAction 1474459372414 TestBowling.java 1882 10 21 5
