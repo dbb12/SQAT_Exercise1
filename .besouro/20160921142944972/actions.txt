@@ -96,3 +96,14 @@ EditAction 1474459982393 TestBowling.java 2758 11 45 6
 UnitTestCaseAction 1474459982708 TestBowling.java OK
 UnitTestSessionAction 1474459982708 TestBowling.java OK
 EditAction 1474460366609 BowlingGame.java 920 5 5 0
+RefactoringAction 1474460376562 TestBowling.java ADD void test FIELD
+RefactoringAction 1474460379151 TestBowling.java RENAME test=>void testScorewith FIELD
+RefactoringAction 1474460381226 TestBowling.java RENAME testScorewith=>void testScoreWith FIELD
+RefactoringAction 1474460386390 TestBowling.java RENAME testScoreWith=>void testScoreWithStrike FIELD
+RefactoringAction 1474460389478 TestBowling.java RENAME testScoreWithStrike=>void testScoreWithStrike_example FIELD
+RefactoringAction 1474460392068 TestBowling.java RENAME testScoreWithStrike_example=>void testScoreWithStrike_examplecase_ FIELD
+RefactoringAction 1474460393098 TestBowling.java RENAME testScoreWithStrike_examplecase_=>void testScoreWithStrike_examplecase_94 FIELD
+RefactoringAction 1474460395172 TestBowling.java RENAME testScoreWithStrike_examplecase_94=>void testScoreWithStrike_examplecase_equals FIELD
+RefactoringAction 1474460398261 TestBowling.java RENAME testScoreWithStrike_examplecase_equals=>void testScoreWithStrike_examplecase_equals_94 FIELD
+RefactoringAction 1474460404969 TestBowling.java RENAME testScoreWithStrike_examplecase_equals_94=>void testScoreWithStrike_examplecase_equals_94() METHOD
+EditAction 1474460422067 Frame.java 860 6 9 0
