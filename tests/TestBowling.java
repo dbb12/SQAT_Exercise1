@@ -202,7 +202,7 @@ public class TestBowling {
 		assertEquals(98,number);		
 	}
 	
-	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,1]
+	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,0]
 	@Test
 	public void testScoreWithLastSpare_example7case_equals_90() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -216,9 +216,28 @@ public class TestBowling {
 		bg.addFrame(new Frame(4,5));
 		bg.addFrame(new Frame(8,1));
 		bg.addFrame(new Frame(2,8));
-		bg.setBonus(7,1);
+		bg.setBonus(7,0);
 		int number = bg.score();
 		assertEquals(90,number);	
+	}
+	
+	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,2]
+	@Test
+	public void testScoreWithLastStrike_example8case_equals_92() throws BowlingException{
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(1,5));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(7,2));
+		bg.addFrame(new Frame(3,6));
+		bg.addFrame(new Frame(4,4));
+		bg.addFrame(new Frame(5,3));
+		bg.addFrame(new Frame(3,3));
+		bg.addFrame(new Frame(4,5));
+		bg.addFrame(new Frame(8,1));
+		bg.addFrame(new Frame(10,0));
+		bg.setBonus(7,2);
+		int number = bg.score();
+		assertEquals(92,number);
 	}
 }
 

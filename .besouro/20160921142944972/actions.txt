@@ -177,3 +177,7 @@ RefactoringAction 1474461979080 TestBowling.java RENAME testScoreWithLastSpare_e
 EditAction 1474462036347 Frame.java 891 6 10 0
 EditAction 1474462036394 TestBowling.java 6969 18 137 13
 EditAction 1474462036457 BowlingGame.java 1228 5 7 0
+UnitTestCaseAction 1474462036756 TestBowling.java OK
+UnitTestSessionAction 1474462036756 TestBowling.java OK
+RefactoringAction 1474462144162 TestBowling.java ADD void testScoreWithLastStrike_example8case_equals_92() METHOD
+EditAction 1474462173381 TestBowling.java 7597 19 151 14
