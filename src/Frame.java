@@ -21,7 +21,7 @@ public class Frame {
 	public int score(){
 		return getFirstThrow()+getSecondThrow();
 	}
-
+	
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
 		if( firstThrow == 10)
