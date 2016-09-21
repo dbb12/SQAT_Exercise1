@@ -182,3 +182,6 @@ UnitTestSessionAction 1474462036756 TestBowling.java OK
 RefactoringAction 1474462144162 TestBowling.java ADD void testScoreWithLastStrike_example8case_equals_92() METHOD
 EditAction 1474462173381 TestBowling.java 7597 19 151 14
 EditAction 1474462173444 BowlingGame.java 1296 5 7 0
+UnitTestCaseAction 1474462173759 TestBowling.java FAIL
+UnitTestSessionAction 1474462173759 TestBowling.java FAIL
+EditAction 1474462266485 TestBowling.java 7602 19 151 14

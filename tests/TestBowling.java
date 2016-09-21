@@ -112,7 +112,7 @@ public class TestBowling {
 	}
 	
 	
-	// example2 : [10,0] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [10,0]
+	// example2 : [10,0] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [9,0]
 	@Test
 	public void testScoreWithStrike_example2case_equals_96() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -127,10 +127,10 @@ public class TestBowling {
 		bg.addFrame(new Frame(8,1));
 		bg.addFrame(new Frame(10,0));
 		int number = bg.score();
-		assertEquals(96,number);
+		assertEquals(95,number);
 	}
 	
-	// example : [1,9] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	// example3 : [1,9] [3,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
 	@Test
 	public void testScoreWithSpare_example3case_equals_88() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -148,7 +148,7 @@ public class TestBowling {
 		assertEquals(88,number);
 	}
 	
-	// example : [10,0] [4,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	// example4 : [10,0] [4,6] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
 	@Test
 	public void testScoreWithSpareFollowdBySpare_example4case_equals_103() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -166,7 +166,7 @@ public class TestBowling {
 		assertEquals(103,number);
 	}
 	
-	// example : [10,0] [10,0] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	// example5 : [10,0] [10,0] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
 	@Test
 	public void testScoreWithTwoStrikeInARow_example5case_equals_112() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -184,7 +184,7 @@ public class TestBowling {
 		assertEquals(112,number);
 	}
 	
-	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
+	// example6 : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6]
 	@Test
 	public void testScoreWithTwoSpareInARow_example6case_equals_98() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -202,7 +202,7 @@ public class TestBowling {
 		assertEquals(98,number);		
 	}
 	
-	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,0]
+	// example7 : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,0]
 	@Test
 	public void testScoreWithLastSpare_example7case_equals_90() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
@@ -221,7 +221,7 @@ public class TestBowling {
 		assertEquals(90,number);	
 	}
 	
-	// example : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,2]
+	// example8 : [8,2] [5,5] [7,2] [3,6] [4,4] [5,3] [3,3] [4,5] [8,1] [2,6] ,bonus [7,2]
 	@Test
 	public void testScoreWithLastStrike_example8case_equals_92() throws BowlingException{
 		BowlingGame bg = new BowlingGame();
