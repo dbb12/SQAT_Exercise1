@@ -125,7 +125,7 @@ public class TestBowling {
 		bg.addFrame(new Frame(3,3));
 		bg.addFrame(new Frame(4,5));
 		bg.addFrame(new Frame(8,1));
-		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(9,0));
 		int number = bg.score();
 		assertEquals(95,number);
 	}
