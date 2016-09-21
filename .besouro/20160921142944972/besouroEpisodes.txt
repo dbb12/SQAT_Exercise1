@@ -11,3 +11,5 @@
 1474459982712 test-addition 1 922 true
 1474460422444 test-last 1 55 false
 1474460422445 test-last 1 55 false
+1474460518512 test-addition 1 86 true
+1474460518513 test-addition 1 86 true
