@@ -5,11 +5,6 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
 	public void testFrame_2_4_firstScoreEquals_2() throws BowlingException{
 		Frame frm = new Frame(2,4);
 		int firstScore = frm.getFirstThrow();

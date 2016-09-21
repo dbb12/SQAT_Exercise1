@@ -39,3 +39,23 @@ RefactoringAction 1474458321422 TestBowling.java RENAME testFrame_5_7_throwBowli
 RefactoringAction 1474458323497 TestBowling.java RENAME testFrame__7_throwBowlingException()=>void testFrame_ FIELD
 EditAction 1474458344214 Frame.java 833 6 8 0
 EditAction 1474458344370 TestBowling.java 1038 6 10 2
+UnitTestCaseAction 1474458344907 TestBowling.java FAIL
+UnitTestSessionAction 1474458344907 TestBowling.java FAIL
+RefactoringAction 1474458354454 TestBowling.java REMOVE test() METHOD
+UnitTestCaseAction 1474458358861 TestBowling.java OK
+UnitTestSessionAction 1474458358861 TestBowling.java OK
+RefactoringAction 1474458427548 TestBowling.java ADD void testFrame FIELD
+RefactoringAction 1474458429108 TestBowling.java RENAME testFrame=>void testFrame_ FIELD
+RefactoringAction 1474458435816 TestBowling.java RENAME testFrame_=>void testFrame_2_6_return FIELD
+RefactoringAction 1474458437376 TestBowling.java RENAME testFrame_2_6_return=>void testFrame_2_6_return_8 FIELD
+RefactoringAction 1474458443570 TestBowling.java RENAME testFrame_2_6_return_8=>void testFrame_2_6_return_8() METHOD
+RefactoringAction 1474458479746 TestBowling.java ADD void testFrame_ FIELD
+RefactoringAction 1474458482850 TestBowling.java RENAME testFrame_=>void testFrame_0_9_ FIELD
+RefactoringAction 1474458484410 TestBowling.java RENAME testFrame_0_9_=>void testFrame_0_9_return FIELD
+RefactoringAction 1474458485970 TestBowling.java RENAME testFrame_0_9_return=>void testFrame_0_9_return_9 FIELD
+RefactoringAction 1474458492164 TestBowling.java RENAME testFrame_0_9_return_9=>void testFrame_0_9_return_9() METHOD
+RefactoringAction 1474458541709 TestBowling.java ADD void testFrame_ FIELD
+RefactoringAction 1474458544299 TestBowling.java RENAME testFrame_=>void testFrame_minus1_ FIELD
+RefactoringAction 1474458545344 TestBowling.java RENAME testFrame_minus1_=>void testFrame_minus1_8 FIELD
+RefactoringAction 1474458564407 TestBowling.java RENAME testFrame_minus1_8=>void testFrame_minus1_8_throwBowlingException() METHOD
+EditAction 1474458581427 Frame.java 841 6 8 0
