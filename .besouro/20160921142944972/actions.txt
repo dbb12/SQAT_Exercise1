@@ -231,3 +231,6 @@ RefactoringAction 1474463237659 TestBowling.java REMOVE testFrame_5_7_throwBowli
 UnitTestCaseAction 1474463243434 TestBowling.java OK
 UnitTestSessionAction 1474463243434 TestBowling.java OK
 EditAction 1474463277926 TestBowling.java 8611 20 178 16
+UnitTestCaseAction 1474463278209 TestBowling.java FAIL
+UnitTestSessionAction 1474463278209 TestBowling.java FAIL
+EditAction 1474463340469 TestBowling.java 8610 20 178 16
