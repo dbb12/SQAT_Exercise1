@@ -107,3 +107,4 @@ RefactoringAction 1474460395172 TestBowling.java RENAME testScoreWithStrike_exam
 RefactoringAction 1474460398261 TestBowling.java RENAME testScoreWithStrike_examplecase_equals=>void testScoreWithStrike_examplecase_equals_94 FIELD
 RefactoringAction 1474460404969 TestBowling.java RENAME testScoreWithStrike_examplecase_equals_94=>void testScoreWithStrike_examplecase_equals_94() METHOD
 EditAction 1474460422067 Frame.java 860 6 9 0
+EditAction 1474460422129 TestBowling.java 3272 12 58 7
