@@ -205,3 +205,6 @@ RefactoringAction 1474462461481 TestBowling.java RENAME testBestScore=>void test
 RefactoringAction 1474462464070 TestBowling.java RENAME testBestScore_e=>void testBestScore_equals_300 FIELD
 RefactoringAction 1474462470778 TestBowling.java RENAME testBestScore_equals_300=>void testBestScore_equals_300() METHOD
 EditAction 1474462505629 TestBowling.java 8762 21 179 16
+UnitTestCaseAction 1474462506031 TestBowling.java FAIL
+UnitTestSessionAction 1474462506031 TestBowling.java FAIL
+EditAction 1474462603328 TestBowling.java 8766 21 179 16

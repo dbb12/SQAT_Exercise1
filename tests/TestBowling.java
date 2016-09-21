@@ -267,11 +267,13 @@ public class TestBowling {
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(10,0));
+
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(10,0));
-		bg.addFrame(new Frame(10,0));
-		bg.addFrame(new Frame(10,0));
+		bg.addFrame(new Frame(9,1));
+		bg.addFrame(new Frame(9,0));
+		
 		bg.setBonus(10,0);
 		int number = bg.score();
 		assertEquals(300,number);
