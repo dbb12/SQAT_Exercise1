@@ -153,3 +153,4 @@ RefactoringAction 1474461408843 TestBowling.java RENAME testScoreWithTwoStrikeIn
 RefactoringAction 1474461414007 TestBowling.java RENAME testScoreWithTwoStrikeInARow_example5case_equals_=>void testScoreWithTwoStrikeInARow_example5case_equals_112 FIELD
 RefactoringAction 1474461419685 TestBowling.java RENAME testScoreWithTwoStrikeInARow_example5case_equals_112=>void testScoreWithTwoStrikeInARow_example5case_equals_112() METHOD
 EditAction 1474461465346 TestBowling.java 5743 16 110 11
+EditAction 1474461465409 BowlingGame.java 1104 5 5 0
