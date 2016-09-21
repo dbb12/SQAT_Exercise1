@@ -124,3 +124,4 @@ RefactoringAction 1474460792199 TestBowling.java RENAME testScoreWithSpare_examp
 RefactoringAction 1474460793244 TestBowling.java RENAME testScoreWithSpare_example3case_equals_=>void testScoreWithSpare_example3case_equals_88 FIELD
 RefactoringAction 1474460799438 TestBowling.java RENAME testScoreWithSpare_example3case_equals_88=>void testScoreWithSpare_example3case_equals_88() METHOD
 EditAction 1474460979633 TestBowling.java 4533 14 84 9
+EditAction 1474460979711 BowlingGame.java 1006 5 5 0
