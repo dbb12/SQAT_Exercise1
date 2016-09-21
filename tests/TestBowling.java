@@ -33,4 +33,23 @@ public class TestBowling {
 		Frame frm = new Frame(-1,7);
 	}
 	
+	@Test
+	public void testFrame_2_6_return_8() throws BowlingException{
+		Frame frm = new Frame(2,6);
+		int score = frm.score();
+		assertEquals(8,score);
+	}
+	
+	@Test
+	public void testFrame_0_9_return_9() throws BowlingException{
+		Frame frm = new Frame(0,9);
+		int score = frm.score();
+		assertEquals(9,score);
+	}
+	
+	@Test (expected = BowlingException.class)
+	public void testFrame_minus1_8_throwBowlingException() throws BowlingException{
+		Frame frm = new Frame(-1,9);
+		int score = frm.score();
+	}
 }

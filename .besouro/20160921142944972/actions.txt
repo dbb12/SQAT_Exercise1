@@ -59,3 +59,4 @@ RefactoringAction 1474458544299 TestBowling.java RENAME testFrame_=>void testFra
 RefactoringAction 1474458545344 TestBowling.java RENAME testFrame_minus1_=>void testFrame_minus1_8 FIELD
 RefactoringAction 1474458564407 TestBowling.java RENAME testFrame_minus1_8=>void testFrame_minus1_8_throwBowlingException() METHOD
 EditAction 1474458581427 Frame.java 841 6 8 0
+EditAction 1474458581489 TestBowling.java 1486 8 17 4
