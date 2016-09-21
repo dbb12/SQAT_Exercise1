@@ -274,7 +274,7 @@ public class TestBowling {
 		bg.addFrame(new Frame(10,0));
 		bg.addFrame(new Frame(10,0));
 		
-		bg.setBonus(10,0);
+		bg.setBonus(10,10);
 		int number = bg.score();
 		assertEquals(300,number);
 	}
